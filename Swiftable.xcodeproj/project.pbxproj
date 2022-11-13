@@ -11,6 +11,7 @@
 		D8E35A0B2908CAB700B22D6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E35A0A2908CAB700B22D6C /* ContentView.swift */; };
 		D8E35A0D2908CABB00B22D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8E35A0C2908CABB00B22D6C /* Assets.xcassets */; };
 		D8E35A102908CABB00B22D6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8E35A0F2908CABB00B22D6C /* Preview Assets.xcassets */; };
+		D8EE0D3D290F62F900E35DBE /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EE0D3C290F62F900E35DBE /* BarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D8E35A0A2908CAB700B22D6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D8E35A0C2908CABB00B22D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8E35A0F2908CABB00B22D6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8EE0D3C290F62F900E35DBE /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		D8E35A072908CAB700B22D6C /* Swiftable */ = {
 			isa = PBXGroup;
 			children = (
+				D8EE0D3B290F62BC00E35DBE /* GeometryReader */,
 				D8E35A082908CAB700B22D6C /* SwiftableApp.swift */,
 				D8E35A0A2908CAB700B22D6C /* ContentView.swift */,
 				D8E35A0C2908CABB00B22D6C /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				D8E35A0F2908CABB00B22D6C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8EE0D3B290F62BC00E35DBE /* GeometryReader */ = {
+			isa = PBXGroup;
+			children = (
+				D8EE0D3C290F62F900E35DBE /* BarView.swift */,
+			);
+			path = GeometryReader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8EE0D3D290F62F900E35DBE /* BarView.swift in Sources */,
 				D8E35A0B2908CAB700B22D6C /* ContentView.swift in Sources */,
 				D8E35A092908CAB700B22D6C /* SwiftableApp.swift in Sources */,
 			);
